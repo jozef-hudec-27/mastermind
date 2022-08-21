@@ -16,4 +16,5 @@ When guessing the secret code, you will come across some symbols that determine 
 - ⚫⚫⚫⚫, meaning that none of the colors from the guess are in the secret code. In other words, don't use these colors again, unless you want to lose.
 - 🔴, meaning that the guess has both correct color ***and*** position in it. (e.g. if the secret code is ``` blue red green black ``` and the guess is ``` blue red yellow white ```, the feedback will be ``` 🔴🔴 ```, because the guess has 2 perfect matches (``` blue ``` and ``` red ```))
 - ⚪, meaning that the guess includes a color from the secret code, but at a wrong position (e.g. with the secret code ``` red blue black black ``` and guess ``` blue red white white ``` the feedback would be ``` ⚪⚪ ```)
+
 Please note that the feedback is in ***no particular order***. So if the feedback is ``` 🔴🔴⚪⚪ ```, it doesn't mean that the first 2 values from the guess are actually perfect matches, it merely means that there are 2 perfect matches *somewhere* in the guess.

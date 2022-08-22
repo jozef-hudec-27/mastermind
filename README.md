@@ -18,3 +18,5 @@ When guessing the secret code, you will come across some symbols that determine 
 - ⚪, meaning that the guess includes a color from the secret code, but at a wrong position (e.g. with the secret code ``` red blue black black ``` and guess ``` blue red white white ``` the feedback would be ``` ⚪⚪ ```)
 
 Please note that the feedback is in ***no particular order***. So if the feedback is ``` 🔴🔴⚪⚪ ```, it doesn't mean that the first 2 values from the guess are actually perfect matches, it merely means that there are 2 perfect matches *somewhere* in the guess.
+
+[![Run on Repl.it](https://replit.com/badge/github/jozef-hudec-27/mastermind)](https://replit.com/new/github/jozef-hudec-27/mastermind)
